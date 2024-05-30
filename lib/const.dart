@@ -1,1 +1,1 @@
-String baseUrl = 'http://localhost:1337/';
+String baseUrl = 'http://192.168.56.1:1337/';
