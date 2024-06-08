@@ -1,4 +1,4 @@
-// import 'package:badges/badges.dart';
+import 'package:badges/badges.dart' as badges;
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:my_grocery/controller/controllers.dart';
@@ -90,13 +90,12 @@ class MainHeader extends StatelessWidget {
             color: Colors.grey,),
           ),
           const SizedBox(width: 10),
-          Badge(
-            // Widget : const Text("1",
-            // style: TextStyle(
-            //   color: Colors.white
-            // ),
-            // ),
-            backgroundColor: Theme.of(context).primaryColor,
+          badges.Badge(
+            badgeContent: const Text("1",
+            style: TextStyle(
+              color: Colors.white
+            ),),
+            badgeColor: Theme.of(context).primaryColor,
             child: Container(
               height: 46,
               width: 46,
