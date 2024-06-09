@@ -4,28 +4,58 @@ import 'package:my_grocery/const.dart';
 class RemoteProductService {
   var client = http.Client();
   var remoteUrl = '$baseUrl/api/products';
-  
-  Future<dynamic> get() async {
-    var response = await client.get(
-      Uri.parse('$remoteUrl?populate=images,tags')
-    );
 
-    return response;
+  Future<dynamic> get() async {
+    try {
+      var response = await client.get(
+        Uri.parse('$remoteUrl?populate=images,tags')
+      );
+
+      if (response.statusCode == 200) {
+        return response;
+      } else {
+        print('Failed to load products: ${response.statusCode}');
+        return null;
+      }
+    } catch (e) {
+      print('Error: $e');
+      return null;
+    }
   }
   
   Future<dynamic> getByName({required String keyword}) async {
-    var response = await client.get(
-      Uri.parse('$remoteUrl?populate=images,tags&filters[name][\$contains]=$keyword')
-    );
+    try {
+      var response = await client.get(
+        Uri.parse('$remoteUrl?populate=images,tags&filters[name][\$contains]=$keyword')
+      );
 
-    return response;
+      if (response.statusCode == 200) {
+        return response;
+      } else {
+        print('Failed to load products by name: ${response.statusCode}');
+        return null;
+      }
+    } catch (e) {
+      print('Error: $e');
+      return null;
+    }
   }
 
   Future<dynamic> getByCategory({required int id}) async {
-    var response = await client.get(
+    try {
+      var response = await client.get(
         Uri.parse('$remoteUrl?populate=images,tags&filters[category][id]=$id')
-    );
+      );
 
-    return response;
+      if (response.statusCode == 200) {
+        return response;
+      } else {
+        print('Failed to load products by category: ${response.statusCode}');
+        return null;
+      }
+    } catch (e) {
+      print('Error: $e');
+      return null;
+    }
   }
 }
