@@ -1,1 +1,1 @@
-const String baseUrl = 'https://192.168.1.4:1337';
+String baseUrl = 'https://efficient-life-0decbcd91b.strapiapp.com';
