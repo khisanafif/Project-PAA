@@ -15,7 +15,7 @@ class PopularCategoryCard extends StatelessWidget {
     return Padding(
       padding: EdgeInsets.fromLTRB(10, 10, 5, 10),
       child: CachedNetworkImage(
-        imageUrl: baseUrl + category.image,
+        imageUrl:  category.image,
         imageBuilder: (context, imageProvider) => Material(
           elevation: 8,
           shadowColor: Colors.grey.shade300,

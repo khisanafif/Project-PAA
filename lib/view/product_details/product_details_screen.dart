@@ -41,7 +41,7 @@ class _ProductDetailsScreenState extends State<ProductDetailsScreen> {
             Padding(
               padding: const EdgeInsets.symmetric(horizontal: 10),
               child: Text(
-                '\$${widget.product.tags.first.price.toStringAsFixed(2)}',
+                '\$${widget.product.tags.first.price}',
                 style: TextStyle(
                     fontSize: 18,
                     color: Theme.of(context).primaryColor,

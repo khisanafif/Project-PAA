@@ -28,7 +28,7 @@ class _ProductCarouselSliderState extends State<ProductCarouselSlider> {
                         child: Hero(
                           tag: e,
                           child: CachedNetworkImage(
-                            imageUrl: baseUrl + e,
+                            imageUrl: e,
                             imageBuilder: (context, imageProvider) => Container(
                               decoration: BoxDecoration(
                                   color: Colors.white,

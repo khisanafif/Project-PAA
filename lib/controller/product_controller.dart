@@ -1,6 +1,7 @@
 import 'package:flutter/cupertino.dart';
 import 'package:get/get.dart';
 import 'package:my_grocery/model/product.dart';
+import 'package:my_grocery/service/remote_service/remote_product.dart';
 
 class ProductController extends GetxController {
   static ProductController instance = Get.find();

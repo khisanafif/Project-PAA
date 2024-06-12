@@ -3,10 +3,7 @@ import 'package:hive/hive.dart';
 
 part 'ad_banner.g.dart';
 
-List<AdBanner> adBannerListFromJson(String val) => List<AdBanner>.from(
-  json.decode(val)['data'].map((banner) => AdBanner.fromJson(banner))
-);
-
+// ad_banner.dart
 @HiveType(typeId: 1)
 class AdBanner {
   @HiveField(0)
@@ -16,11 +13,18 @@ class AdBanner {
 
   AdBanner({
     required this.id,
-    required this.image
+    required this.image,
   });
 
-  factory AdBanner.fromJson(Map<String, dynamic> data) => AdBanner(
-    id: data['id'],
-    image: data['attributes']['image']['data']['attributes']['url']
-  );
+  factory AdBanner.fromJson(Map<String, dynamic> data) {
+    // Ensure the 'image' field contains the full URL
+    return AdBanner(
+      id: data['id'],
+      image: data['attributes']['image']['data']['attributes']['url'],
+    );
+  }
 }
+
+List<AdBanner> adBannerListFromJson(String val) => List<AdBanner>.from(
+  json.decode(val)['data'].map((banner) => AdBanner.fromJson(banner))
+);

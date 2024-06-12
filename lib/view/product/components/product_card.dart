@@ -37,7 +37,7 @@ class ProductCard extends StatelessWidget {
                   child: Hero(
                     tag: product.images.first,
                     child: CachedNetworkImage(
-                      imageUrl: baseUrl + product.images.first,
+                      imageUrl:product.images.first,
                       placeholder: (context, url) => Shimmer.fromColors(
                         highlightColor: Colors.white,
                         baseColor: Colors.grey.shade300,
@@ -72,7 +72,7 @@ class ProductCard extends StatelessWidget {
                     ),
                     const SizedBox(height: 5),
                     Text(
-                      '\$${product.tags.first.price.toStringAsFixed(2)}',
+                      '\Rp${product.tags.first.price}',
                       style: const TextStyle(fontSize: 12, color: Colors.grey),
                     ),
                   ],
