@@ -1,11 +1,11 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:my_grocery/component/main_header.dart';
-import 'package:my_grocery/controller/controllers.dart';
-import 'package:my_grocery/view/home/components/popular_category/popular_category.dart';
-import 'package:my_grocery/view/home/components/popular_product/popular_product.dart';
-import 'package:my_grocery/view/home/components/popular_product/popular_product_loading.dart';
-import 'package:my_grocery/view/home/components/section_title.dart';
+import 'package:pustakaloka/component/main_header.dart';
+import 'package:pustakaloka/controller/controllers.dart';
+import 'package:pustakaloka/view/home/components/popular_category/popular_category.dart';
+import 'package:pustakaloka/view/home/components/popular_product/popular_product.dart';
+import 'package:pustakaloka/view/home/components/popular_product/popular_product_loading.dart';
+import 'package:pustakaloka/view/home/components/section_title.dart';
 
 import 'components/carousel_slider/carousel_slider_view.dart';
 import 'components/popular_category/popular_category_loading.dart';

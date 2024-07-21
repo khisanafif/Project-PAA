@@ -1,11 +1,11 @@
 import 'package:get/get.dart';
-import 'package:my_grocery/model/ad_banner.dart';
-import 'package:my_grocery/model/category.dart';
-import 'package:my_grocery/model/product.dart';
-import 'package:my_grocery/service/local_service/local_ad_banner_service.dart';
-import 'package:my_grocery/service/local_service/local_product_service.dart';
-import 'package:my_grocery/service/remote_service/remote_banner_service.dart';
-import 'package:my_grocery/service/remote_service/remote_popular_category_service.dart';
+import 'package:pustakaloka/model/ad_banner.dart';
+import 'package:pustakaloka/model/category.dart';
+import 'package:pustakaloka/model/product.dart';
+import 'package:pustakaloka/service/local_service/local_ad_banner_service.dart';
+import 'package:pustakaloka/service/local_service/local_product_service.dart';
+import 'package:pustakaloka/service/remote_service/remote_banner_service.dart';
+import 'package:pustakaloka/service/remote_service/remote_popular_category_service.dart';
 
 import '../service/local_service/local_category_service.dart';
 import '../service/remote_service/remote_popular_product_service.dart';

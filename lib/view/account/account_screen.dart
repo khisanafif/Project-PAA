@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:my_grocery/controller/controllers.dart';
+import 'package:pustakaloka/controller/controllers.dart';
 
 import 'auth/sign_in_screen.dart';
 

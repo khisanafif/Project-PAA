@@ -2,13 +2,13 @@ import 'package:flutter/material.dart';
 import 'package:flutter_easyloading/flutter_easyloading.dart';
 import 'package:get/get.dart';
 import 'package:hive_flutter/hive_flutter.dart';
-import 'package:my_grocery/model/ad_banner.dart';
-import 'package:my_grocery/model/category.dart';
-import 'package:my_grocery/model/product.dart';
-import 'package:my_grocery/model/user.dart';
-import 'package:my_grocery/route/app_page.dart';
-import 'package:my_grocery/route/app_route.dart';
-import 'package:my_grocery/theme/app_theme.dart';
+import 'package:pustakaloka/model/ad_banner.dart';
+import 'package:pustakaloka/model/category.dart';
+import 'package:pustakaloka/model/product.dart';
+import 'package:pustakaloka/model/user.dart';
+import 'package:pustakaloka/route/app_page.dart';
+import 'package:pustakaloka/route/app_route.dart';
+import 'package:pustakaloka/theme/app_theme.dart';
 
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();

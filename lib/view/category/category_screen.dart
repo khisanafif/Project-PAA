@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:my_grocery/controller/controllers.dart';
-import 'package:my_grocery/view/category/components/category_card.dart';
+import 'package:pustakaloka/controller/controllers.dart';
+import 'package:pustakaloka/view/category/components/category_card.dart';
 
 class CategoryScreen extends StatelessWidget {
   const CategoryScreen({Key? key}) : super(key: key);

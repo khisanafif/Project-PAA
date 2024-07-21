@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:my_grocery/controller/controllers.dart';
-import 'package:my_grocery/extention/string_extention.dart';
+import 'package:pustakaloka/controller/controllers.dart';
+import 'package:pustakaloka/extention/string_extention.dart';
 
 import '../../../component/input_outline_button.dart';
 import '../../../component/input_text_button.dart';

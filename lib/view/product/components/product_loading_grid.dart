@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:my_grocery/view/product/components/product_loading_card.dart';
-
+import 'package:pustakaloka/view/product/components/product_loading_card.dart';
 class ProductLoadingGrid extends StatelessWidget {
   const ProductLoadingGrid({Key? key}) : super(key: key);
 

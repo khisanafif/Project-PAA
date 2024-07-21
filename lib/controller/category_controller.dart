@@ -1,7 +1,7 @@
 import 'package:get/get.dart';
-import 'package:my_grocery/model/category.dart';
-import 'package:my_grocery/service/local_service/local_category_service.dart';
-import 'package:my_grocery/service/remote_service/remote_category_service.dart';
+import 'package:pustakaloka/model/category.dart';
+import 'package:pustakaloka/service/local_service/local_category_service.dart';
+import 'package:pustakaloka/service/remote_service/remote_category_service.dart';
 
 class CategoryController extends GetxController {
   static CategoryController instance = Get.find();

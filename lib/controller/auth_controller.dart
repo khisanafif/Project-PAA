@@ -2,9 +2,8 @@ import 'dart:convert';
 import 'package:flutter/material.dart';
 import 'package:flutter_easyloading/flutter_easyloading.dart';
 import 'package:get/get.dart';
-import 'package:my_grocery/service/local_service/local_auth_service.dart';
-import 'package:my_grocery/service/remote_service/remote_auth_service.dart';
-
+import 'package:pustakaloka/service/local_service/local_auth_service.dart';
+import 'package:pustakaloka/service/remote_service/remote_auth_service.dart';
 import '../model/user.dart';
 
 class AuthController extends GetxController {

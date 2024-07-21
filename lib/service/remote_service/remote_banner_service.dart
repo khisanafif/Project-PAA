@@ -1,6 +1,6 @@
 // remote_banner.dart
 import 'package:http/http.dart' as http;
-import 'package:my_grocery/const.dart';
+import 'package:pustakaloka/const.dart';
 
 class RemoteBannerService {
   var client = http.Client();

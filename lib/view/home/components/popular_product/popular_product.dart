@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:my_grocery/view/home/components/popular_product/popular_product_card.dart';
+import 'package:pustakaloka/view/home/components/popular_product/popular_product_card.dart';
 
 import '../../../../model/product.dart';
 

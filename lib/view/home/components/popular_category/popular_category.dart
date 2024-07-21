@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:my_grocery/model/category.dart';
+import 'package:pustakaloka/model/category.dart';
 
 import 'popular_category_card.dart';
 

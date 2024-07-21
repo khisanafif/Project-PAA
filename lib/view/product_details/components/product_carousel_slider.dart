@@ -1,7 +1,7 @@
 import 'package:cached_network_image/cached_network_image.dart';
 import 'package:carousel_slider/carousel_slider.dart';
 import 'package:flutter/material.dart';
-import 'package:my_grocery/const.dart';
+import 'package:pustakaloka/const.dart';
 import 'package:shimmer/shimmer.dart';
 
 class ProductCarouselSlider extends StatefulWidget {

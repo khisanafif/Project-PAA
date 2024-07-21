@@ -1,7 +1,7 @@
 import 'package:cached_network_image/cached_network_image.dart';
 import 'package:flutter/material.dart';
 // import 'package:my_grocery/const.dart';
-import 'package:my_grocery/model/ad_banner.dart';
+import 'package:pustakaloka/model/ad_banner.dart';
 import 'package:shimmer/shimmer.dart';
 
 class BannerCard extends StatelessWidget {

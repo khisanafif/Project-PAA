@@ -1,9 +1,9 @@
 import 'package:get/get.dart';
-import 'package:my_grocery/controller/auth_controller.dart';
-import 'package:my_grocery/controller/category_controller.dart';
-import 'package:my_grocery/controller/dashboard_controller.dart';
-import 'package:my_grocery/controller/home_controller.dart';
-import 'package:my_grocery/controller/product_controller.dart';
+import 'package:pustakaloka/controller/auth_controller.dart';
+import 'package:pustakaloka/controller/category_controller.dart';
+import 'package:pustakaloka/controller/dashboard_controller.dart';
+import 'package:pustakaloka/controller/home_controller.dart';
+import 'package:pustakaloka/controller/product_controller.dart';
 
 class DashboardBinding extends Bindings {
   @override

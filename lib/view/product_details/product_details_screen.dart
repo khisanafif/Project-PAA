@@ -174,7 +174,7 @@ class _ProductDetailsScreenState extends State<ProductDetailsScreen> {
           child: const Padding(
             padding: EdgeInsets.all(6.0),
             child: Text(
-              'Add to Card',
+              'Add to Cart',
               style: TextStyle(fontSize: 16),
             ),
           ),

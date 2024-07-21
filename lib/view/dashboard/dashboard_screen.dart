@@ -1,10 +1,10 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_snake_navigationbar/flutter_snake_navigationbar.dart';
 import 'package:get/get.dart';
-import 'package:my_grocery/controller/dashboard_controller.dart';
-import 'package:my_grocery/view/category/category_screen.dart';
-import 'package:my_grocery/view/home/home_screen.dart';
-import 'package:my_grocery/view/product/product_screen.dart';
+import 'package:pustakaloka/controller/dashboard_controller.dart';
+import 'package:pustakaloka/view/category/category_screen.dart';
+import 'package:pustakaloka/view/home/home_screen.dart';
+import 'package:pustakaloka/view/product/product_screen.dart';
 
 import '../account/account_screen.dart';
 

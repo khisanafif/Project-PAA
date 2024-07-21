@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:my_grocery/view/home/components/popular_product/popular_product_loading_card.dart';
+import 'package:pustakaloka/view/home/components/popular_product/popular_product_loading_card.dart';
 
 class PopularProductLoading extends StatelessWidget {
   const PopularProductLoading({Key? key}) : super(key: key);
